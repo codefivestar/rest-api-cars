@@ -1,0 +1,32 @@
+{
+  "name": "rest-api-cars",
+  "version": "1.0.0",
+  "description": "rest-api using nodejs ( async / await ) and mongoose",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/app.js",
+    "dev": "nodemon src/app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/codefivestar/rest-api-cars.git"
+  },
+  "author": "Hidequel Puga",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/codefivestar/rest-api-cars/issues"
+  },
+  "homepage": "https://github.com/codefivestar/rest-api-cars#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "express-promise-router": "^3.0.3",
+    "joi": "^14.3.1",
+    "mongoose": "^5.6.9",
+    "morgan": "^1.9.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.1"
+  }
+}
